@@ -1,31 +1,164 @@
-h1 {
-	color:red;
+body{
+font-family: 'Open Sans', sans-serif;
+color: #201b2d; 
+font - size: 15px;
+padding:0px;
+margin: 0px;
+	} 
+	div, p,input, button, form, span, a, ul, li{
+
+		box-sizing: border-box;
+	}
+	h1, h2, h3, h4, h5, h6{
+
+		margin: 0;
+		font font-family: Montserat, sans-serif;
+		font-weight: 900;
+	}
+	.container{
+
+		width: 1170px;
+		margin: 0 auto;
+
+	}
+	.header{height: 500px;
+background: rgb(71,62,95);
+background: linear-gradient(90deg, rgba(71,62,95,1) 0%, rgba(42,34,64,1) 100%);  
+	padding-bottom: 225px;
+	padding-top: 100px;
+color:#fff;}
+	.logo{
+
+
+	}
+	.offer{
+		width: 480px;
+
+		margin-top: 166px;
+	}
+	.wrapper{
+
+		display: flex;
+		 justify-content: space-between;
+	}
+	.title{
+font-size: 36px;
+color:;
+
+	}
+	.title span {color:#48ed8e;
+	}
+	.intro{
+
+width: 380px;
+		margin-bottom:37px;
+		margin-top: 30px;
+	}
+
+	.btn{
+		font-family: Montserat, sans-serif;
+		border-radius:100px;
+		display: block;
+		width: 205px;
+		padding:19px 0;
+		text-align: center;
+		text-decoration: none;
+	    transition: all 0.5s ease;
+		background: #ed9619;
+		color:#fff;
+
+
+	}
+	.btn:hover
+	{
+background:#ffcc66;
+	}
+	p{line-height: 1.65em
+	}
+	.desktop{
+margin-top:72px;
 }
-.new{
-	height: 100px;
-	width: 110px;
-	background-color: blue;
-	margin-bottom: 100px;
-	color: #ffffff;
+
+	}
+	.lern{
+padding-top: 108px;
+padding-bottom: 120px;
+
+	}
+	.section-title{
+
+font-size: 30px;
+
+	}
+	.skills
+	{
+		display: flex;
+		justify-content: space-between;
+		margin-top:70px;}
+.skill
+{
+	width:350px;
+	background: url('../img/icon1.jpg') no-repeat left top;
+	padding-left: 100px;
 
 }
-span{color:red;}
-h2{background-color: green;
-	color:#ffffff;
+	.skill-title{
+		font- size: 18px;
+	}
+	.skill-text{
+		margin-top: 7px;
 
 
 }
-div{
-	height:70px;
-	background: green;
-	padding:10px;
+.skill-free
+{
+	width: 380px;
+	background: url('../img/icon2.jpg') no-repeat left top;
+}
+.skill-change
+{
+	
+	background: url('../img/icon3.jpg') no-repeat left top;
+}
+.mail
+{
+	background: #efecf4;
+	padding-top: 173px;
+	padding-bottom: 190px;
 
 }
-a{color:blue;
+.form{
+
+	margin-top: 40px;
+}
+.input{
+	width:474px;
+	border:1px solid #bfb8d1;
+	font-size: 15px;
+	font-family: 'Open sanse', sans-serif;
+	border-radius: 100px;
+	height:54px;
+	padding-left: 38px;
 
 }
-li
-{ border: 1px solid black;
+	.btn-form
+	{
+border: 0;
+cursor: pointer;
+display: inline;
+margin-left: 11px;
 
+	}
+	.footer{
 
-}
+		padding: 33px 0;
+		background: #201b2d;
+	}
+	.creedits
+	{
+
+		color:#fff;
+		font-size: 14px;
+		margin: 0;
+
+	}
